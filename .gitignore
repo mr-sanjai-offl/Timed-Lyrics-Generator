@@ -1,0 +1,23 @@
+# Browser/OS Specific
+.DS_Store
+Thumbs.db
+*.log
+
+# Extension / Development
+.vscode/
+.idea/
+*.crx
+*.pem
+
+# Credentials & Private Data
+# It is critical never to commit your actual OpenRouter keys!
+.env
+config.local.json
+
+# Tooling / Temporary
+/tmp/
+.gemini/
+.agent/
+.agents/
+node_modules/
+package-lock.json
